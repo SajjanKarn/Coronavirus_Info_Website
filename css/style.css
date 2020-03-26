@@ -44,3 +44,20 @@
         transform: scale(1);
     }
 }
+
+
+
+/* ********* ABOUT ********* */
+.about_coronavirus_h1 {
+    padding: 50px 0px;
+}
+
+.text-about-coronavirus h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* *********** UPDATE ********** */
+.update_coronavirus h1{
+    color: #d63447;
+}

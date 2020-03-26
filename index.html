@@ -17,7 +17,7 @@
         <!-- **********navabr********* -->
         <nav class="navbar navbar-expand-lg navbar-dark p-3">
             <div class="container">
-                <a class="navbar-brand font-weight-bold" href="#">Coronavirus</a>
+                <a class="navbar-brand font-weight-bold" href="#">Coronavirus(COVID-19)</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -52,11 +52,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-10">
-                        <img src="images/unity_of_people.png" alt="unity" class="unity_people">
+                        <img src="images/unity_of_people.png" alt="unity" class="img-fluid unity_people">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-10 text-left">
-                        <h1 class="alert_h1">Let's Stay Safe & Fight Against Cor<span class="logo_corona"><img src="images/coronavirus_transparent.png"
-                                    /></span>na Virus.</h1>
+                        <h1 class="alert_h1">Let's Stay Safe & Fight Against Cor<span class="img-fluid logo_corona"><img
+                                    src="images/coronavirus_transparent.png" /></span>na Virus.</h1>
                     </div>
                 </div>
             </div>
@@ -65,13 +65,72 @@
     </section>
 
     <!-- ************** ABOUT ********* -->
-    <section id="About">
-        <div class="container">
+    <section id="About" class="bg-light">
+        <div class="container text-center p-5">
+            <h1 class="mt-4 mb-4 about_coronavirus_h1">About Coronavirus(COVID-19).</h1>
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 text-left">
+                    <img src="images/about_coronavirus.jpg" alt="Corona" class="img-fluid about_coronavirus">
+                </div>
+                <div class="col-lg-6 col-md-6 text-left text-about-coronavirus">
+                    <h1>What is Coronavirus(COVID-19)?</h1>
+                    <p>Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.</p>
 
+                    <p>The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and
+                        in more severe cases, difficulty breathing. You can protect yourself by washing your hands
+                        frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with
+                        people who are unwell.</p>
+
+                    <p>Coronavirus disease spreads primarily through contact with an infected person when they cough or
+                        sneeze. It also spreads when a person touches a surface or object that has the virus on it, then
+                        touches their eyes, nose, or mouth.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <!-- ******** UPDATE ********* -->
+
+    <section id="Update">
+        <div class="container update_coronavirus p-5">
+
+            <h1 class="text-center">UPDATES ON COVID-19</h1>
+            <p class="text-center text-muted">Here are some updates on covid-19.</p>
+
+            <div class="row">
+                <div class="col-lg-4 text-center mt-5">
+                    <h2>491,775</h2>
+                    <span class="counter">Total Cases</span>
+                </div>
+                <div class="col-lg-4 text-center mt-5">
+                    <h2>22,174</h2>
+                    <span class="counter">Total Deaths</span>
+                </div>
+                <div class="col-lg-4 text-center mt-5">
+                    <h2>118,060</h2>
+                    <span class="counter">Total Recovered</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ********* SYMPTOMS ******** -->
+    <section id="Symptoms">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4"></div>
+                <div class="col-lg-4 col-md-4"></div>
+                <div class="col-lg-4 col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4"></div>
+                <div class="col-lg-4 col-md-4"></div>
+                <div class="col-lg-4 col-md-4"></div>
+            </div>
+
         </div>
     </section>
 
@@ -87,6 +146,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="scripts/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>

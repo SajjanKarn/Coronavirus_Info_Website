@@ -133,3 +133,71 @@
     margin: 0;
     line-height: 2;
 }
+
+
+/* media queries */
+@media (max-width: 475px) {
+    .unity_people {
+        width: 500px;
+        height: 500px;
+    }
+    .alert_h1 {
+        margin: 5px auto;
+        line-height: 0;
+        font-size: 1.3rem;
+    }
+    #Home {
+        height: 1000px;
+    }
+
+    /* about */
+    .about_coronavirus_h1 {
+        font-size: 1.5rem;
+    }
+    .coronavirus_what {
+        font-size: 1rem;
+        margin: 10px auto;
+    }
+
+    /* /////// PREVENTIVE MEASURES /////// */
+    .preventive_text {
+        font-size: 1.5rem;
+    }
+    .preventions_img {
+        width: 200px;
+        height: 200px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    /* //////// contact us /////// */
+    #ContactUs {
+        padding: 20px 10px;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 988px) {
+    .preventions_img {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 767px) {
+    .alert_h1 {
+        margin: 10px auto;
+    }
+    #Home {
+        height: 1200px;
+    }
+    .preventions_img {
+        width: 150px;
+        height: 150px;
+        margin: 15px auto;
+    }
+    #ContactUs {
+        padding: 20px 15px;
+    }
+}

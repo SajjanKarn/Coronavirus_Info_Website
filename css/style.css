@@ -66,3 +66,38 @@
 .symptoms_of_coronavirus h1 {
     padding: 50px 0px;
 }
+
+#Symptoms {
+    padding: 50px 0px;
+}
+
+.symptoms_img {
+    width: 100px;
+    height: 120px;
+}
+
+.symptoms_text {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* ************* PREVENTIONS ******* */
+.preventions h1 {
+    padding: 50px 0px;
+}
+
+#Preventions {
+    padding: 50px 0px;
+}
+
+.preventions_img {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.preventions_text {
+    font-weight: 400;
+    line-height: 1.5;
+}

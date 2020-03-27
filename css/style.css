@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap');
 
-* { margin: 0; padding: 0; font-family: 'Baloo Da 2', cursive; }
+* { margin: 0; padding: 0; font-family: 'Baloo Da 2', cursive; scroll-behavior: smooth; }
 
 /* ********** NAVBAR ********* */
 .navbar { background-color: #18b0b0 !important;}
@@ -17,7 +17,7 @@
 
 .unity_people { animation: unity_of_people 5s linear infinite; margin: 50px auto;}
 
-.alert_h1 { margin: 150px auto; font-weight: 400;}
+.alert_h1 { margin: 150px auto 10px; font-weight: 400;}
 
 @keyframes go_corona {
     0% {transform: rotate(0deg);}
@@ -51,6 +51,9 @@
 .about_coronavirus_h1 {
     padding: 50px 0px;
 }
+.about_corona_text {
+    line-height: 1.6;
+}
 
 .text-about-coronavirus h1 {
     font-size: 2rem;
@@ -60,6 +63,9 @@
 /* *********** UPDATE ********** */
 .update_coronavirus h1{
     color: #d63447;
+}
+#Update {
+    padding: 50px 0px;
 }
 
 /* ************ SYMPTOMS ****** */
@@ -100,4 +106,30 @@
 .preventions_text {
     font-weight: 400;
     line-height: 1.5;
+}
+
+/* *********contact_us********** */
+.contact_us {
+    padding: 50px 0px;
+}
+
+.contact_us h1 {
+    padding: 50px 0px;
+}
+
+
+/* footer //////////////// */
+#Footer {
+    background-color: #000;
+    color: #fff;
+}
+
+#Footer h4 {
+    margin: 0;
+    padding: 20px 10px;
+}
+
+#Footer p {
+    margin: 0;
+    line-height: 2;
 }
